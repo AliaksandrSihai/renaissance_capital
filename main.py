@@ -1,9 +1,10 @@
+import logging
 import os
 import sqlite3
-from lxml import etree
-import logging
-from db import DBConnect
 
+from lxml import etree
+
+from db import DBConnect
 
 xml_file = 'answer.xml'
 logging.basicConfig(level=logging.INFO)
