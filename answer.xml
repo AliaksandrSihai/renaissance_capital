@@ -1,0 +1,30 @@
+<root type="answer">
+  <importStatus>
+    <date value='2024-02-04'>
+      <type value='type1'>
+        <label value="label3">
+          <price>103</price>
+          <importedStatus>Imported</importedStatus>
+        </label>
+      </type>
+    </date>
+    <date value='2024-02-05'>
+      <type value='type1'>
+        <label value="label1">
+          <price>101</price>
+          <importedStatus>NotImported</importedStatus>
+        </label>
+        <label value="label2">
+          <price>102</price>
+          <importedStatus>Imported</importedStatus>
+        </label>
+      </type>
+      <type value='type2' maturity='SPOT'>
+        <label value="label4">
+          <price>104</price>
+          <importedStatus>NotImported</importedStatus>
+        </label>
+      </type>
+    </date>
+  </importStatus>
+</root>
